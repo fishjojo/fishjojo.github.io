@@ -32,9 +32,15 @@ color:#1a1a1a;
 text-align:center
 }
 
-
-.AppHeader{
-background:#1a1a1a
+.AppHeader
+{position:relative;
+z-index:100;
+min-width:1032px;
+overflow:hidden;
+background:#fff;
+-webkit-box-shadow:0 1px 3px rgba(26,26,26,.1);
+box-shadow:0 1px 3px rgba(26,26,26,.1);
+background-clip:content-box
 }
 
 .AppHeader-inner
