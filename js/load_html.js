@@ -8,7 +8,7 @@ function set_bg(id,name){
   day = new Date()
   hour = day.getHours()
   if(hour > 17){
-    pic_url = "/pics/homepage"+name+"_bg_night.JPG"
+    pic_url = "/pics/"+name+"_bg_night.JPG"
   }
 
   document.getElementById(id).style.backgroundImage = "url('"+pic_url +"')";
