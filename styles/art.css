@@ -33,6 +33,10 @@ text-align:center
 }
 
 
+.AppHeader{
+background:#1a1a1a
+}
+
 .AppHeader-Tabs{
 border-bottom:none;
 display:-webkit-box;
