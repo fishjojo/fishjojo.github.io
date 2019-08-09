@@ -37,6 +37,24 @@ text-align:center
 background:#1a1a1a
 }
 
+.AppHeader-inner
+{position:relative;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+width:1000px;
+height:52px;
+padding:0 16px;
+margin:0 auto;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center;
+-webkit-transition:-webkit-transform .3s;
+transition:-webkit-transform .3s;
+transition:transform .3s;
+transition:transform .3s,-webkit-transform .3s
+}
+
 .AppHeader-Tabs{
 border-bottom:none;
 display:-webkit-box;
