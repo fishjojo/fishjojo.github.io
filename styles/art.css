@@ -8,3 +8,44 @@ height:100vh;
 overflow:auto;
 padding-right:15px
 }
+
+.Tabs{
+border-bottom:1px solid #f6f6f6
+}html[data-theme=dark] 
+
+.Tabs{
+border-bottom:1px solid #2e2e2e
+}
+
+.Tabs-item{
+display:inline-block;
+padding:0 20px
+}
+
+.Tabs-link{
+position:relative;
+display:inline-block;
+padding:14px 0;
+font-size:16px;
+line-height:22px;
+color:#1a1a1a;
+text-align:center
+}
+
+
+.AppHeader-Tabs{
+border-bottom:none;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+margin:0 23px
+}
+
+.AppHeader-Tab{
+padding:0 17px
+}
+
+.AppHeader-TabsLink{
+color:#8590a6;
+font-size:15px
+}
