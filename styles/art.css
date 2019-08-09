@@ -75,5 +75,6 @@ padding:0 17px
 
 .AppHeader-TabsLink{
 color:#8590a6;
-font-size:15px
+font-size:15px;
+text-decoration: none
 }
