@@ -9,23 +9,16 @@
    Xing's testing site
   </title>
   <link rel="icon" href="icon/shortcut_icon.png" sizes="152x152" type="image/png"/>
-  </style><link rel="stylesheet" href="styles/art.css"/>
+  <link rel="stylesheet" href="styles/art.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/js/load_html.js"> </script>
  </head>
  <body>
   <div class="fig-bg homepage-bg">
-   <header role="banner" class="AppHeader">
-    <div class="AppHeader-inner">
-     <ul role="navigation" class="Tabs AppHeader-Tabs">
-      <li role="tab" class="Tabs-item AppHeader-Tab">
-       <a class="Tabs-link AppHeader-TabsLink" href="//fishjojo.github.io/">Home</a>
-      </li>
-      <li role="tab" class="Tabs-item AppHeader-Tab">
-       <a class="Tabs-link AppHeader-TabsLink" href="pages/links.html">Links</a>
-      </li>
-     </ul>
-    </div>
-   </header>
+   <div id="nav-bar"> </div>
   </div>
  </body>
+
+ <script>load_html("/elements/nav_bar.html", "nav-bar");</script>
 
 </html>
